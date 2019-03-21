@@ -3,9 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import { connect } from 'react-redux';
 import { WebView } from "react-native-webview";
 
+import { trailersFetched } from "../../../actions/index";
+
 import VideoPlayer from './VideoPlayer';
 
-import { trailersFetched } from "../../../actions/index";
+//Here I tried to use react-native-youtube, but unfortunately it doesn't work on small screens,
+// even I haven't removed id, then I used the WebView for video player.
 
 class TrailerView extends Component {
 
