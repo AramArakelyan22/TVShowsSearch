@@ -8,7 +8,7 @@ TVShowsSearch uses a number of open source projects to work properly:
 
 * [React-Native] - To create Native Mobile Application!
 * [Redux] - awesome tool for managing the state.
-* [React-Native-Navigation] - great toll for managing the navigation between screens.
+* [React-Native-Navigation] - great tool for managing the navigation between screens.
 * [axios] - a Javascript library used to make HTTP requests  
 
 And of course TVShowsSearch itself is open source with a [https://github.com/AramArakelyan22/TVShowsSearch.git]
@@ -23,9 +23,9 @@ git clone https://github.com/AramArakelyan22/TVShowsSearch.git
 
 ### Installation
 
-BetMakers requires [Node.js](https://nodejs.org/) v8+ to run.
+TVShowsSearch requires [Node.js](https://nodejs.org/) v8+ to run.
 
-Install the dependencies and devDependencies.
+Install the dependencies and devDependencies
 
 ```sh
 $ cd TVShowsSearch
