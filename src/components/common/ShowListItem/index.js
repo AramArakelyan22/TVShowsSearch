@@ -4,7 +4,7 @@ import {
   View,
   Text,
   Image,
-  TouchableOpacity,
+  TouchableWithoutFeedback,
   Dimensions,
 } from 'react-native';
 
@@ -16,7 +16,7 @@ const ShowListItem = ({id, onPress, image, title, itemNumbersByLine, year}) => {
 
   return(
     <View style={styles.wrapper}>
-      <TouchableOpacity  onPress={() => onPress(id)}>
+      <TouchableWithoutFeedback  onPress={() => onPress(id)}>
         <View style={[styles.containerStyle,  itemNumbersByLine === 1 ? styles.listStyle : styles.gridStyle ]}>
           <View>
             <Image
@@ -29,7 +29,7 @@ const ShowListItem = ({id, onPress, image, title, itemNumbersByLine, year}) => {
             <Text style={styles.textStyle}>{year}</Text>
           </View>
         </View>
-      </TouchableOpacity>
+      </TouchableWithoutFeedback>
     </View>
   )};
 
